@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>中文排版</title>
+  <link rel="stylesheet" href="./css/heti.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #ededed;
+    }
+
+    @font-face {
+      font-family: "pinru";
+      src: url("fonts/pinru.ttf");
+      src: url("fonts/pinru.ttf"),
+        url("fonts/pinru.ttf") format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: "szjw";
+      src: url("fonts/FZZJ-SZJW.ttf");
+      src: url("fonts/FZZJ-SZJW.ttf"),
+        url("fonts/FZZJ-SZJW.ttf") format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: "GJPKZTFU";
+      src: url("fonts/FZZJ-GJPKZTFU.ttf");
+      src: url("fonts/FZZJ-GJPKZTFU.ttf"),
+        url("fonts/FZZJ-GJPKZTFU.ttf") format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: "DHTCSJW";
+      src: url("fonts/FZZJ-DHTCSJW.ttf");
+      src: url("fonts/FZZJ-DHTCSJW.ttf"),
+        url("fonts/FZZJ-DHTCSJW.ttf") format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: "RUFSYXK";
+      src: url("fonts/FZSJ-RUFSYXK.ttf");
+      src: url("fonts/FZSJ-RUFSYXK.ttf"),
+        url("fonts/FZSJ-RUFSYXK.ttf") format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: "QINGYAXK";
+      src: url("fonts/FZSJ-QINGYAXK.ttf");
+      src: url("fonts/FZSJ-QINGYAXK.ttf"),
+        url("fonts/FZSJ-QINGYAXK.ttf") format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    .myFont {
+      font-family: 'pinru' !important;
+    }
+
+    .myFont2 {
+      font-family: 'szjw' !important;
+    }
+
+    .myFont3 {
+      font-family: 'GJPKZTFU' !important;
+    }
+
+    .myFont4 {
+      font-family: 'DHTCSJW' !important;
+    }
+
+    .myFont5 {
+      font-family: 'RUFSYXK' !important;
+    }
+
+    .myFont6 {
+      font-family: 'QINGYAXK' !important;
+    }
+
+    .container {
+      box-sizing: border-box;
+      width: 80%;
+      min-width: 640px;
+      max-width: 768px;
+      margin-block-start: 48px;
+      margin-block-end: 72px;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      padding-block-start: 48px;
+      padding-block-end: 48px;
+      padding-inline-start: 48px;
+      padding-inline-end: 48px;
+      border-radius: 2px;
+      box-shadow: 0 8px 32px rgb(0 0 0 / 32%);
+      background-color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <article class="heti">
+      <!-- 第一首诗 -->
+      <div class="heti heti--ancient">
+        <h2>一剪梅·红藕香残玉簟秋<span class="heti-meta heti-small">[宋]<abbr title="号易安居士">李清照</abbr></span></h2>
+        <p class="heti-verse heti-x-large">
+          红藕香残玉簟秋。轻解罗裳，独上兰舟<span class="heti-hang">。</span><br>
+          云中谁寄锦书来，雁字回时，月满西楼<span class="heti-hang">。</span><br>
+          花自飘零水自流。一种相思，两处闲愁<span class="heti-hang">。</span><br>
+          此情无计可消除，才下眉头，却上心头<span class="heti-hang">。</span>
+        </p>
+      </div>
+
+      <!-- 分割线 -->
+      <hr>
+
+      <!-- 第二首诗 -->
+      <div class="heti heti--ancient myFont">
+        <!-- <h2>一剪梅·红藕香残玉簟秋<span class="heti-meta heti-small">[宋]<abbr title="号易安居士">李清照</abbr></span></h2> -->
+        <p class="heti-verse heti-x-large">
+          红藕香残玉簟秋。轻解罗裳，独上兰舟<span class="heti-hang">。</span><br>
+          云中谁寄锦书来，雁字回时，月满西楼<span class="heti-hang">。</span><br>
+          花自飘零水自流。一种相思，两处闲愁<span class="heti-hang">。</span><br>
+          此情无计可消除，才下眉头，却上心头<span class="heti-hang">。</span>
+        </p>
+      </div>
+
+      <!-- 分割线 -->
+      <hr>
+
+      <!-- 第二首诗 -->
+      <div class="heti heti--ancient myFont2">
+        <!-- <h2>一剪梅·红藕香残玉簟秋<span class="heti-meta heti-small">[宋]<abbr title="号易安居士">李清照</abbr></span></h2> -->
+        <p class="heti-verse heti-x-large">
+          红藕香残玉簟秋。轻解罗裳，独上兰舟<span class="heti-hang">。</span><br>
+          云中谁寄锦书来，雁字回时，月满西楼<span class="heti-hang">。</span><br>
+          花自飘零水自流。一种相思，两处闲愁<span class="heti-hang">。</span><br>
+          此情无计可消除，才下眉头，却上心头<span class="heti-hang">。</span>
+        </p>
+      </div>
+
+      <!-- 分割线 -->
+      <hr>
+
+      <!-- 第二首诗 -->
+      <div class="heti heti--ancient myFont3">
+        <!-- <h2>一剪梅·红藕香残玉簟秋<span class="heti-meta heti-small">[宋]<abbr title="号易安居士">李清照</abbr></span></h2> -->
+        <p class="heti-verse heti-x-large">
+          红藕香残玉簟秋。轻解罗裳，独上兰舟<span class="heti-hang">。</span><br>
+          云中谁寄锦书来，雁字回时，月满西楼<span class="heti-hang">。</span><br>
+          花自飘零水自流。一种相思，两处闲愁<span class="heti-hang">。</span><br>
+          此情无计可消除，才下眉头，却上心头<span class="heti-hang">。</span>
+        </p>
+      </div>
+
+      <!-- 分割线 -->
+      <hr>
+
+      <!-- 第二首诗 -->
+      <div class="heti heti--ancient myFont4">
+        <!-- <h2>一剪梅·红藕香残玉簟秋<span class="heti-meta heti-small">[宋]<abbr title="号易安居士">李清照</abbr></span></h2> -->
+        <p class="heti-verse heti-x-large">
+          红藕香残玉簟秋。轻解罗裳，独上兰舟<span class="heti-hang">。</span><br>
+          云中谁寄锦书来，雁字回时，月满西楼<span class="heti-hang">。</span><br>
+          花自飘零水自流。一种相思，两处闲愁<span class="heti-hang">。</span><br>
+          此情无计可消除，才下眉头，却上心头<span class="heti-hang">。</span>
+        </p>
+      </div>
+
+      <!-- 分割线 -->
+      <hr>
+
+      <!-- 第二首诗 -->
+      <div class="heti heti--ancient myFont5">
+        <!-- <h2>一剪梅·红藕香残玉簟秋<span class="heti-meta heti-small">[宋]<abbr title="号易安居士">李清照</abbr></span></h2> -->
+        <p class="heti-verse heti-x-large">
+          红藕香残玉簟秋。轻解罗裳，独上兰舟<span class="heti-hang">。</span><br>
+          云中谁寄锦书来，雁字回时，月满西楼<span class="heti-hang">。</span><br>
+          花自飘零水自流。一种相思，两处闲愁<span class="heti-hang">。</span><br>
+          此情无计可消除，才下眉头，却上心头<span class="heti-hang">。</span>
+        </p>
+      </div>
+
+      <!-- 分割线 -->
+      <hr>
+
+      <!-- 第二首诗 -->
+      <div class="heti heti--ancient myFont6">
+        <!-- <h2>一剪梅·红藕香残玉簟秋<span class="heti-meta heti-small">[宋]<abbr title="号易安居士">李清照</abbr></span></h2> -->
+        <p class="heti-verse heti-x-large">
+          红藕香残玉簟秋。轻解罗裳，独上兰舟<span class="heti-hang">。</span><br>
+          云中谁寄锦书来，雁字回时，月满西楼<span class="heti-hang">。</span><br>
+          花自飘零水自流。一种相思，两处闲愁<span class="heti-hang">。</span><br>
+          此情无计可消除，才下眉头，却上心头<span class="heti-hang">。</span>
+        </p>
+      </div>
+    </article>
+  </main>
+</body>
+
+</html>
